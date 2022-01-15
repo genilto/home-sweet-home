@@ -33,8 +33,6 @@ Preste atenção pois existem módulos que são 5v, por isso é necessário a ut
 ```cpp
 #define SDA_PIN      SDA         // 21
 #define SCL_PIN      SCL         // 22
-#define DISPLAY_ADDR 0x3c        // Endereço I2C do Display
-#define ADS1115_ADDR 0x48        // Endereço I2C do Modulo de conversão analogico digital
 #define ONE_WIRE_PIN 32          // Pino para conexões de um fio. Sensor de Temperatura por exemplo
 #define DHT_SENSOR_PIN 33        // Pino para o sensor de temperatura e umidade
 #define POWER_SENSOR_PIN 34      // Pino que irá identificar se existe tensão da rede (34 pino somente leitura, necessita de pulldown externo)
