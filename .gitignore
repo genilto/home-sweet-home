@@ -5,3 +5,4 @@
 .vscode/ipch
 # Ignore Mac specific files
 .DS_Store
+env.ini
