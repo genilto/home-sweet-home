@@ -28,6 +28,8 @@ Perdi o arquivo do Fritzing...... Estou refazendo no kicad.
 Mas os pinos que devem ser conectados estão no arquivo `Configurations.h`.
 Preste atenção pois existem módulos que são 5v, por isso é necessário a utilização de um level shifter (conversor de nível lógico bidirecional 5v <-> 3.3v) para comunicação do módulo com o ESP32.
 
+![ESP32 Devkit V1](documentation/ESP32-Pinout.jpg)
+
 ```cpp
 #define SDA_PIN      SDA         // 21
 #define SCL_PIN      SCL         // 22
@@ -71,8 +73,6 @@ USER_MQTT=mqqtuser
 PWD_MQTT=mqttpass
 CLIENT_ID=esp32
 ```
-
-![ESP32 Devkit V1](documentation/ESP32-Pinout.jpg)
 
 ## Idéias futuras
 
