@@ -5,6 +5,12 @@
 Este projeto contempla uma série de funcionalidades todas embutidas em um único microcontrolador ESP32.
 Cada funcionalidade utiliza sua própria task independente e as tasks são divididas entre os dois cores do ESP32.
 
+## Vídeo
+
+Veja o vídeo onde falo um pouco sobre o projeto
+
+[![Assita ao vídeo](https://img.youtube.com/vi/a0zFtHZcO2Y/maxresdefault.jpg)](https://youtu.be/a0zFtHZcO2Y)
+
 ## Hardware
 
 * [ESP32 Devkit V1](https://genilto.com/links/esp32)
