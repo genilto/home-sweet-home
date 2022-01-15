@@ -6,7 +6,7 @@ Este projeto contempla uma série de funcionalidades todas embutidas em um únic
 Cada funcionalidade utiliza sua própria task independente e as tasks são divididas entre os dois cores do ESP32.
 
 Para o funcionamento das actions do Google Assistant utilizei uma ferramenta chamada [gBridge](https://doc.gbridge.io), que foi descontinuada, por isso instalei em meu próprio servidor com docker.
-Como servidor MQTT utilizei o [Cloud MQTT](cloudmqtt.com).
+Como servidor MQTT utilizei o [Cloud MQTT](https://cloudmqtt.com).
 
 ## Vídeo
 
