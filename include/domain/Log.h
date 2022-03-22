@@ -5,19 +5,19 @@
 #define Log_h
 
 enum LogType {
-    ERROR,
-    GENERAL,
-    PORT,
-    BOILER_TEMPERATURE,
-    WATER_TANK_LEVEL,
-    IN_TEMPERATURE,
-    IN_HUMIDITY,
-    EXT_TEMPERATURE,
-    WIFI_CONNECTION,
-    MQTT_CONNECTION,
-    POWER,
-    FREE_MEMORY,
-    BATTERY_VOLTAGE,
+    ERROR,              // 0
+    GENERAL,            // 1
+    PORT,               // 2
+    BOILER_TEMPERATURE, // 3
+    WATER_TANK_LEVEL,   // 4
+    IN_TEMPERATURE,     // 5
+    IN_HUMIDITY,        // 6
+    EXT_TEMPERATURE,    // 7
+    WIFI_CONNECTION,    // 8
+    MQTT_CONNECTION,    // 9
+    POWER,              // 10
+    FREE_MEMORY,        // 11
+    BATTERY_VOLTAGE,    // 12
 };
 
 enum LogSource {
